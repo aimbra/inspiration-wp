@@ -1,7 +1,15 @@
 <?php get_header(); ?>
 <main>
 
-  <h1>Hello</h1>
+  <?php
+  if (have_posts()):
+    the_content();
+  else:
+    ?>
+  <p class="alert alert-danger">Nenhum conteúdo a ser mostrado</p>
+  <?php
+  endif;
+  ?>
 
 </main>
 <?php get_footer(); ?>
