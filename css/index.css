@@ -9794,6 +9794,19 @@ section.testemony .card .card-body p {
   font-style: italic;
 }
 
+.photo-testemony {
+  padding: 25%;
+  content: '';
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 30%;
+  height: 50%; */
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
 section.price table button.btn {
   font-size: 1rem;
 }

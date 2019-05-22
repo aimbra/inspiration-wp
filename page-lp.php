@@ -14,8 +14,7 @@
     <!-- <article>
     <?php the_content(); ?>
     </article> -->
-
-    <header style="background-image: url(<?= get_template_directory_uri().'/dist/images/bg-header.png'; ?>);">
+    <header style="background-image: url(<?= get_template_directory_uri().'/dist/images/bg-slide-2.jpg'; ?>);">
     <section>
       <div class="d-flex justify-content-center">
         <figure class="logo">
@@ -24,21 +23,21 @@
       </div>
     </section>
     <section class="content">
-      <div class="text-center" data-toggle="modal" data-target=".bd-example-modal-xl">
+      <!-- <div class="text-center" data-toggle="modal" data-target=".bd-example-modal-xl">
         <i class="far fa-play-circle"></i>
-      </div>
+      </div> -->
       <div class="text-center mt-5">
-        <h1 class="text-uppercase">Faça Parte do Único clube do Brasil especializado em <span>Persuasão</span> e <span>Copywriting</span></h1>
+        <h1 class="text-uppercase">Faça Parte do Principal clube do Brasil especializado em <span>Persuasão</span> e <span>Copywriting</span></h1>
         <h5 class="text-uppercase">Temporada 2</h5>
       </div>
       <div class="text-center p-5">
         <h4 class="text-uppercase">Faça sua assinatura agora!</h4>
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <button class="btn btn-secondary w-100 m-2">Plano semestral por R$594,00</button>
+            <button class="btn btn-secondary w-100 m-2" onclick="javascript: window.open('http://mon.net.br/8rdqj', '_blank');">Plano mensal por R$59,90</button>
           </div>
           <div class="col-xs-12 col-md-6">
-            <button class="btn btn-danger w-100 m-2">Plano anual por R$899,00</button>
+            <button class="btn btn-danger w-100 m-2" onclick="javascript: window.open('http://mon.net.br/c2hh8', '_blank');">Plano anual por R$658,90</button>
           </div>
         </div>
       </div>
@@ -135,15 +134,15 @@
     </section>
 
     <section class="faq">
-      <div class="container text-center p-5">
+      <div class="container text-center p-3">
         <h2>Resumo da temporada #2</h2>
         <p>São 17 episódios onde vamos pegar desdes as raízes da arte de pensar e escrever para influenciar pessoas, passando pelos estudos da mente e comportamento do consumidor e chegando às estruturas práticas para você colocar a mão na massa. Você vai aprender com detalhes como pensar em estratégias que atraem, geram interesse e levam pessoas à ação.</p>
       </div>
-      <div class="container text-center p-5">
+      <div class="container text-center p-3">
         <h2>Para quem é o ALTMaker PRO</h2>
         <p>Homens e mulheres de negócios, profissionais criativos, influenciadores, vendedores, infoprodutores e todo especialista comprometido que usa ou pretende usar a internet para oferecer serviços, ideias ou produtos.</p>
       </div>
-      <div class="container text-center p-5">
+      <div class="container text-center p-3">
         <h2>Para quem <span>não</span> é o ALTMaker PRO</h2>
         <p>Para curiosos, pessoas que buscam templates e fórmulas mágicas, preguiçosos que querem ter sucesso sem esforço, fãs incondicionais de falsos gurus e empreendedores de palco.</p>
       </div>
@@ -153,35 +152,41 @@
       <div class="container">
         <div class="row">
           <div class="col-12 p-5">
-            <h2 class="text-center">O que os membros tem a dizer</h2>
+            <h2 class="text-center">O que alguns membros têm a dizer</h2>
           </div>
           <div class="col-xs-12 col-md-4">
-            <div class="card">
+            <div class="card p-3">
+              <div class="photo-testemony" style="background-image: url(<?= get_template_directory_uri().'/dist/images/romulo-marconi.jpg'; ?>);"></div>
               <div class="card-body text-center">
                 <h3 class="card-title">
-                  Depoimento
+                  Rômulo Marconi<br>
+                  <span style="font-size: 10px;">- Copywriter profissional -</span>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam odit officia, voluptates dolorum labore corrupti ipsa dicta earum consequatur vitae, aut totam ex necessitatibus! Aliquid maiores earum obcaecati ad magni?</p>
+                <p>Vocês foram os responsáveis pelo meu click no copywriting. Depois do Altmaker meus advertoriais passaram a ser os principais aqui na empresa. O tanto que vocês me ajudaram, não tá no gibi.</p>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-md-4">
-            <div class="card">
+            <div class="card p-3">
+              <div class="photo-testemony" style="background-image: url(<?= get_template_directory_uri().'/dist/images/cida-leal.jpg'; ?>);"></div>
               <div class="card-body text-center">
                 <h3 class="card-title">
-                  Depoimento
+                  Cida Leal<br>
+                  <span style="font-size: 10px;">- Jornalista profissional -</span>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus repudiandae numquam eligendi dolor nisi recusandae quia, vero ad veniam itaque eum vel architecto reprehenderit dolore, sit quasi, sint id laboriosam!</p>
+                <p>Andar lado a lado com guerreiros te faz um guerreiro. Quero agradecer a todos pela oportunidade de compartilhar seus conhecimentos, suas experiências, opiniões, etc. Tem sido muito gratificante fazer parte desse clube. Obrigada, mesmo!</p>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-md-4">
-            <div class="card">
+            <div class="card p-3">
+              <div class="photo-testemony" style="background-image: url(<?= get_template_directory_uri().'/dist/images/bruno-breda.jpg'; ?>);"></div>
               <div class="card-body text-center">
                 <h3 class="card-title">
-                  Depoimento
+                  Bruno Breda<br>
+                  <span style="font-size: 10px;">- Copywriter e Empreendedor -</span>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum expedita deserunt deleniti molestias alias quas ipsam, distinctio ducimus, laborum harum vel consequuntur earum quisquam, eveniet dolor ea amet ipsum! Hic?</p>
+                <p>Depois que passei a seguir as lições do Paulo e do Fred passei a escrever muito mais. Porque aprendi como transformar palavras em dinheiro. Hoje, minha “preocupação” é escrever mais ainda.</p>
               </div>
             </div>
           </div>
@@ -196,7 +201,7 @@
               <thead>
                 <tr>
                   <th>-</th>
-                  <th class="text-center">Plano Semestral</th>
+                  <th class="text-center">Plano Mensal</th>
                   <th class="text-center">Plano Anual</th>
                 </tr>
               </thead>
@@ -240,13 +245,13 @@
               <tfoot>
                 <tr>
                   <td></td>
-                  <td><button class="btn btn-secondary btn-sm w-100">Sim, quero este!</button></td>
-                  <td><button class="btn btn-danger btn-sm w-100">Sim, quero este!</button></td>
+                  <td><button class="btn btn-secondary btn-sm w-100"  onclick="javascript: window.open('http://mon.net.br/8rdqj', '_blank');">Sim, quero este!</button></td>
+                  <td><button class="btn btn-danger btn-sm w-100" onclick="javascript: window.open('http://mon.net.br/c2hh8', '_blank');">Sim, quero este!</button></td>
                 </tr>
                 <tr>
                   <td></td>
-                  <td class="price">R$594,00</td>
-                  <td class="price">R$899,00</td>
+                  <td class="price">R$59,90</td>
+                  <td class="price">R$658,90</td>
                 </tr>
               </tfoot>
             </table>
